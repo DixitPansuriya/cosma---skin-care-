@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.csrousel{
+  cursor: all-scroll;
+  display: flex;
+  justify-content: center;
+}
+.slider{
+ background-image: url("https://cosma.wpengine.com/wp-content/uploads/2021/03/testimonial-bg.jpg");
+ height: 70vh !important;
+background-size: cover;
+}
+.box_1{
+  background-color:rgba(192,192,192,0.3);
+  height: 100%;
+  width: 93.1%;
+  /* top: -0%; */
+  transition-duration: 3s;
+
+  position: absolute;
+}
+.box_col{
+  overflow: hidden;
+  position: relative;
+  /* width: 30%; */
+  /* transition-duration: 1s; */
+
+}
+
+.box_col:hover .box_1{
+  top: -0%;
+  
+
+}
+
+.sec_8{
+  background: url("https://cosma.wpengine.com/wp-content/uploads/2021/03/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 88vh;
+  /* overflow: hidden; */
+  background-position: center center;
+  background-color: #F8F3EB;
+}
+.sec8-p{
+  font-weight: 600;
+  font-style: italic;
+}
+.sec8-h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+.sec8-h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500 !important ;
+  font-style: oblique;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider{
+
+width: 100%;
+width: ;
+  height:80vh;
+
+}
+
+
+header{
+  z-index: 1;
+  background: fixed;
+}
+
+.l-btn{
+  position: absolute;
+  top: 820px;
+  left: 25px;
+  background: hotpink;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 50%;
+}
+.r-1{
+  background-color:  rgb(255, 201, 41)
+};
+
+header{
+  background: #60a5fa !important;
+}
